@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 33,
+    "articles": [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Putin delivers a nuclear warning to the West over Ukraine - Reuters.com",
+            "description": "President Vladimir Putin on Tuesday delivered a nuclear warning to the West over Ukraine, suspending a bilateral nuclear arms control treaty, announcing new strategic systems had been put on combat duty and warning that Moscow could resume nuclear tests.",
+            "url": "https://www.reuters.com/world/putin-update-russias-elite-ukraine-war-major-speech-2023-02-21/",
+            "urlToImage": "https://www.reuters.com/resizer/HRELpB9phJ0asU47i4zqfdN2BSs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/W5V5VE5XRBI5RHWFXNNDC4U3M4.jpg",
+            "publishedAt": "2023-02-21T12:21:00Z",
+            "content": "MOSCOW, Feb 21 (Reuters) - President Vladimir Putin on Tuesday delivered a nuclear warning to the West over Ukraine, suspending a bilateral nuclear arms control treaty, announcing new strategic syste… [+4915 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Putin’s state of the nation speech: What exactly did he say? - Al Jazeera English",
+            "description": "President Putin blames the West and Ukraine for the war he ordered a year ago.",
+            "url": "https://www.aljazeera.com/news/2023/2/21/putins-speech-on-the-state-of-war-what-exactly-did-he-say",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/02/2023-02-21T100632Z_1395515467_RC2MFZ9FHZFO_RTRMADP_3_UKRAINE-CRISIS-ANNIVERSARY-PUTIN.jpg?resize=1920%2C1440",
+            "publishedAt": "2023-02-21T11:27:00Z",
+            "content": "Russias President Vladimir Putin has delivered a state of the nation speech in the Russian capital, Moscow, assessing the invasion of Ukraine he ordered a year ago.\r\nHere are highlights from his addr… [+4703 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Kevin Liptak",
+            "title": "Biden set for latest symbolic clash with Putin after surprise Ukraine trip - CNN",
+            "description": "The last time President Joe Biden spoke from the courtyard of the Royal Castle in Poland, the content of his 27-minute speech was mostly obscured by what he ad-libbed about Russian President Vladimir Putin at the end.",
+            "url": "https://www.cnn.com/2023/02/21/politics/joe-biden-poland-trip/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230220121548-13-biden-ukraine-022023.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-02-21T10:37:00Z",
+            "content": "The last time President Joe Biden spoke from the courtyard of the Royal Castle in Poland, the content of his 27-minute speech was mostly obscured by what he ad-libbed about Russian President Vladimir… [+8181 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Gabrielle Fonrouge",
+            "title": "Home Depot misses on revenue, issues muted outlook - CNBC",
+            "description": "Home Depot fell short of Wall Street's sales estimates due to a drop in lumber prices and provided a muted outlook for the next fiscal year.",
+            "url": "https://www.cnbc.com/2023/02/21/home-depot-hd-q4-earnings-2022.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106677909-1598387521725-gettyimages-1228199315-364230133_1-5.jpeg?v=1676975547&w=1920&h=1080",
+            "publishedAt": "2023-02-21T10:32:27Z",
+            "content": "Home Depot's revenue fell short of Wall Street's estimates in its fiscal fourth-quarter earnings report Tuesday.\r\nThe company also provided a muted outlook for the next year amid a tough consumer bac… [+4484 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Maegan Vazquez",
+            "title": "Buttigieg says he'll visit East Palestine 'when the time is right,' lays out new rail safety efforts - CNN",
+            "description": "Transportation Secretary Pete Buttigieg told reporters on Monday that he plans to visit East Palestine, Ohio, \"when the time is right\" and announced new efforts by his agency to improve rail safety in the wake of a train derailment that has left local residen…",
+            "url": "https://www.cnn.com/2023/02/21/politics/pete-buttigieg-east-palestine-rail-safety/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230220194516-pete-buttigieg-file-022023.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-02-21T10:18:00Z",
+            "content": "Transportation Secretary Pete Buttigieg told reporters on Monday that he plans to visit East Palestine, Ohio, when the time is right and announced new efforts by his agency to improve rail safety in … [+5006 chars]"
+        },
+        {
+            "source": {
+                "id": "mashable",
+                "name": "Mashable"
+            },
+            "author": "Mark Kaufman",
+            "title": "Scientists find serious melting beneath the 'Doomsday Glacier' in Antarctica - Mashable",
+            "description": "The enormous glacier is in trouble.",
+            "url": "https://mashable.com/article/thwaites-doomsday-glacier-antarctica-melting",
+            "urlToImage": "https://helios-i.mashable.com/imagery/articles/04sUtrtLFJQs9OQMsLAyrM3/hero-image.fill.size_1200x675.v1676586658.jpg",
+            "publishedAt": "2023-02-21T10:00:01Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Wagner's Prigozhin accuses Russian top brass of 'treason' - Reuters.com",
+            "description": "Yevgeny Prigozhin, founder of the Wagner group, on Tuesday accused the Russian defence minister and the chief of the general staff of depriving his fighters of munitions and trying to destroy Wagner - actions he said were equivalent to treason.",
+            "url": "https://www.reuters.com/world/europe/wagners-prigozhin-accuses-russian-top-brass-treason-2023-02-21/",
+            "urlToImage": "https://www.reuters.com/resizer/_MmZluPSOoiZ0rdG5inED1enlSY=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QGVQZSIEF5ICBP4KULZVOXLJDE.jpg",
+            "publishedAt": "2023-02-21T09:06:00Z",
+            "content": "MOSCOW, Feb 21 (Reuters) - Yevgeny Prigozhin, founder of the Wagner group, on Tuesday accused the Russian defence minister and the chief of the general staff of depriving his fighters of munitions an… [+1627 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Shares slip as key economic data looms - Reuters.com",
+            "description": "European stocks fell on Tuesday ahead of key data that will offer a window into the health of major economies, while the dollar hovered close to its highest in six weeks.",
+            "url": "https://www.reuters.com/markets/global-markets-wrapup-1pix-2023-02-21/",
+            "urlToImage": "https://www.reuters.com/resizer/1Gb5kgU7vUQTXojlqG6QK17f9v4=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/PP6OTZHORVJLDNVGTRBDGLFGOU.jpg",
+            "publishedAt": "2023-02-21T08:44:00Z",
+            "content": "LONDON/SINGAPORE, Feb 21 (Reuters) - European stocks fell on Tuesday ahead of key data that will offer a window into the health of major economies, while the dollar hovered close to its highest in si… [+3228 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Jessica Chasmar",
+            "title": "DeSantis racks up wins while Trump, potential 2024 opponents take swipes at Florida governor - Fox News",
+            "description": "Former President Donald Trump blasted Florida Gov. Ron DeSantis as a \"RINO in disguise\" Sunday after previously insisting the governor was a \"very unimportant subject\" to him.",
+            "url": "https://www.foxnews.com/politics/desantis-racks-up-wins-trump-potential-2024-opponents-take-swipes-florida-governor",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/02/d1ce64e3-AP23046785632483-e1676906130259.jpg",
+            "publishedAt": "2023-02-21T07:00:00Z",
+            "content": "While former President Donald Trump continues to work out nicknames for his potential 2024 presidential rival, Florida Republican Gov. Ron DeSantis is still managing to stay out of the fray while bui… [+9003 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Fred Imbert",
+            "title": "Stock futures fall as Dow tries to rebound from its third-straight weekly decline: Live updates - CNBC",
+            "description": "The Dow fell 0.1% last week, marking its third straight weekly decline.",
+            "url": "https://www.cnbc.com/2023/02/20/stock-market-today-live-updates.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107192309-1675980471617-NYSE-Traders-OB-Photo-20230209-CC-PRESS-4.jpg?v=1676934084&w=1920&h=1080",
+            "publishedAt": "2023-02-21T06:26:00Z",
+            "content": "U.S. stock futures fell Monday night following a week during which higher interest rates kept investor sentiment in check.\r\nDow Jones Industrial Average futures dipped 111 points, or 0.33%. S&amp;P 5… [+1211 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Microsoft's president to push Activision deal at EU hearing; Google, Nvidia also present - Reuters",
+            "description": "Microsoft <a href=\"https://www.reuters.com/companies/MSFT.O\" target=\"_blank\">(MSFT.O)</a> President Brad Smith will on Tuesday seek to convince EU antitrust regulators at a closed hearing that the U.S. software giant's $69 billion bid for \"Call of Duty\" maker…",
+            "url": "https://www.reuters.com/markets/deals/microsofts-president-push-activision-deal-eu-hearing-google-nvidia-also-present-2023-02-21/",
+            "urlToImage": "https://www.reuters.com/resizer/x4pOf6P6JzysNiWudAhYcWP1vHw=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/D6HQOHMC7JKRDLESGBRHOKEDLU.jpg",
+            "publishedAt": "2023-02-21T06:05:00Z",
+            "content": "BRUSSELS, Feb 21 (Reuters) - Microsoft (MSFT.O) President Brad Smith will on Tuesday seek to convince EU antitrust regulators at a closed hearing that the U.S. software giant's $69 billion bid for \"C… [+1787 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Deadly earthquakes hit Turkey and Syria, sparking panic - Al Jazeera English",
+            "description": "Magnitude 6.3 and 5.8 earthquakes rocked Turkey and Syria border region; about 200 people were injured.",
+            "url": "https://www.aljazeera.com/news/2023/2/20/new-6-4-magnitude-earthquake-hits-southern-turkey",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/02/2023-02-20T190747Z_560329610_RC27FZ9EOOWM_RTRMADP_3_TURKEY-QUAKE.jpg?resize=1920%2C1440",
+            "publishedAt": "2023-02-21T06:00:00Z",
+            "content": "A magnitude 6.3 earthquake has struck the Turkey-Syria border region, killing at least three people, two weeks after the area was devastated by quakes that killed more than 47,000 people in the two c… [+4615 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Louis Casiano",
+            "title": "First-generation iPhone sells for more than $63K at auction - Fox News",
+            "description": "A first-generation iPhone sold for more than $63,000 at an auction.",
+            "url": "https://www.foxnews.com/us/first-generation-iphone-sells-for-63k-auction",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/02/iphone1.jpg",
+            "publishedAt": "2023-02-21T05:19:00Z",
+            "content": "A first-generation Apple iPhone recently sold for more than $63,356.40 at an auction, according to the auction house. \r\nBidding for the 2007 phone began on Feb. 2 at $2,500, the LCG Auction's website… [+1058 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "China says certain countries must stop 'fuelling the fire' in Ukraine conflict - Reuters.com",
+            "description": "China is \"deeply worried\" that the Ukraine conflict could spiral out of control, foreign minister Qin Gang said on Tuesday, and called on certain countries to stop \"fuelling the fire\" in an apparent dig at the United States.",
+            "url": "https://www.reuters.com/world/china/china-says-it-is-deeply-worried-about-escalation-ukraine-conflict-2023-02-21/",
+            "urlToImage": "https://www.reuters.com/resizer/jEWS4KqmfGayNxZ-V9cVOhbwFzA=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/SCNUYKSHQBIJ3GMAWAPIIGPDVU.jpg",
+            "publishedAt": "2023-02-21T05:17:00Z",
+            "content": "BEIJING, Feb 21 (Reuters) - China is \"deeply worried\" that the Ukraine conflict could spiral out of control, foreign minister Qin Gang said on Tuesday, and called on certain countries to stop \"fuelli… [+3813 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Brian Fung",
+            "title": "Two Supreme Court cases this week could upend the entire internet - CNN",
+            "description": "The Supreme Court is set to hear back-to-back oral arguments this week in two cases that could significantly reshape online speech and content moderation.",
+            "url": "https://www.cnn.com/2023/02/20/tech/supreme-court-tech-platforms/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230215122108-us-supreme-court-building-0126-restricted.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-02-21T05:15:00Z",
+            "content": "The Supreme Court is set to hear back-to-back oral arguments this week in two cases that could significantly reshape online speech and content moderation. \r\nThe outcome of the oral arguments, schedul… [+6528 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Yahoo Sports Staff",
+            "title": "Russell Westbrook stays close to home, signing with L.A. Clippers I The Rush - Yahoo Sports",
+            "description": "Russell Westbrook is finished with the Lakers, but he isn’t done with Los Angeles after signing with the Clippers. The star guard will reunite with his...",
+            "url": "https://sports.yahoo.com/russell-westbrook-stays-close-to-home-signing-with-la-clippers-i-the-rush-045335388.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/LMmWga74TXMCtZau1ztVzQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2023-02/ee615d50-b1a2-11ed-bdff-db4cbbd57943",
+            "publishedAt": "2023-02-21T04:53:00Z",
+            "content": "WATCH THE VIDEO ABOVE to see todays piping-hot, fresh-outta-the-oven episode of THE RUSH with Jared Quay. Well let you know everything you didnt know you needed to know about sports. Other stuff too.… [+919 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Jihye Lee",
+            "title": "HSBC reports fourth-quarter pre-tax profit of $5.2 billion, beating estimates - CNBC",
+            "description": "Analyst estimates compiled by the bank had expected a jump of 87% to $4.97 billion.",
+            "url": "https://www.cnbc.com/2023/02/21/hsbc-earnings-fourth-quarter-full-year-2022.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107197139-1676890967122-gettyimages-1359414851-71947_32_15101912.jpeg?v=1676952983&w=1920&h=1080",
+            "publishedAt": "2023-02-21T04:16:00Z",
+            "content": "HSBC on Tuesday reported fourth-quarter earnings for 2022 that beat analyst expectations.\r\nThe bank's reported profit before tax for the three months ended in December was $5.2 billion, 108% higher t… [+1175 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Entertainment Tonight"
+            },
+            "author": "Leah Sarnoff",
+            "title": "Ariana DeBose Deactivates Twitter Account After Viral BAFTAs Rap Performance - Entertainment Tonight",
+            "description": "Online commentators attacked her opening number at the 2023 BAFTA Awards.",
+            "url": "https://www.etonline.com/ariana-debose-deactivates-twitter-account-after-viral-baftas-rap-performance-199489",
+            "urlToImage": "https://www.etonline.com/sites/default/files/styles/max_1280x720/public/images/2023-02/GettyImages-1247303997.jpg?h=199d8c1f&itok=4TmgzaaT",
+            "publishedAt": "2023-02-21T03:35:41Z",
+            "content": "Ariana DeBose has deactivated her Twitter account after online commentators attacked her opening number at the 2023 BAFTA Awards. However, one of the event's producers was quick to come to the West S… [+2072 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Edward Segarra, USA TODAY",
+            "title": "Jansen Panettiere, actor and brother of Hayden Panettiere, dies at 28: Reports - USA TODAY",
+            "description": "Jansen Panettiere, actor and brother of actress Hayden Panettiere, has reportedly died at the age of 28.",
+            "url": "https://www.usatoday.com/story/entertainment/celebrities/2023/02/20/jansen-panettiere-actor-hayden-brother-dead-at-28/11309132002/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2023/02/21/USAT/4d19a7ff-1cf3-4fb7-992b-ff9a2851a04a-AP_Varietys_5th_Annual_Power_of_Youth_Event.JPG?auto=webp&crop=2311,1300,x0,y150&format=pjpg&width=1200",
+            "publishedAt": "2023-02-21T02:53:15Z",
+            "content": "Actor Jansen Panettiere, a child star of the 2000s and brother of actress Hayden Panettiere, has died. He was 28. \r\nPanettiere died Sunday in New York, according to reports from Deadline, CNN and ABC… [+1502 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "Tim Reynolds",
+            "title": "AP source: Bucks give Meyers Leonard chance to resume career - The Associated Press - en Español",
+            "description": "MIAMI (AP) — Meyers Leonard is getting another chance at the NBA, nearly two years after he used an anti-Semitic slur while playing a video game that was being livestreamed. A person with knowledge of the negotiations said Leonard and the Milwaukee Bucks have…",
+            "url": "https://apnews.com/article/milwaukee-bucks-nba-sports-basketball-meyers-leonard-49ccdbd9a287ff5598eb2aa47bd4f64b",
+            "urlToImage": "https://storage.googleapis.com/afs-prod/media/1bf93ae4a86f40738a806d4139fe5fd3/3000.webp",
+            "publishedAt": "2023-02-21T02:22:35Z",
+            "content": "MIAMI (AP) Meyers Leonard is getting another chance at the NBA, nearly two years after he used an anti-Semitic slur while playing a video game that was being livestreamed.\r\nA person with knowledge of… [+2532 chars]"
+        }
+    ]
+}
