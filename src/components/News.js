@@ -8,15 +8,18 @@ export class news extends Component{
         pageSize: 10,
         country: "in",
         category: "general",
-        
+        mode:"light"
     }
     static propTypes={
         country: PropTypes.string,
         category: PropTypes.string,
         pageSize:PropTypes.number,
+        mode: PropTypes.string
        
     }
-  Allow
+    capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+        }
     constructor(props){  
         super(props);
         
@@ -26,21 +29,10 @@ export class news extends Component{
            loading:false,
            page:1,           
         }
+        document.title=`Ebar Khobor- ${this.capitalizeFirstLetter(this.props.category)}`
     }
     
-    async componentDidMount(){
-        //this.setState({
-        //    loading:true
-        //})
-        //let data = await fetch(this.url)
-        //let parsedData = await data.json()
-        //this.setState({articles:parsedData.articles,
-        //    totalResults:parsedData.totalResults,
-        //    loading:false,
-        //    
-        //})
-    
-        
+    async componentDidMount(){     
         this.updatepage()
     }
         
@@ -54,58 +46,28 @@ export class news extends Component{
         this.setState({
             articles:parsedData.articles,
             totalResults:parsedData.totalResults,
-            loading:false,
-            
-        })//
+            loading:false,         
+        })
         
     }
     nextpage= async ()=>{
         this.setState({
             page :this.state.page+1
         })
-        console.log(this.state.page)
-
         this.updatepage(this.state.page+1);
-          // let pagen = this.state.page+1;
-          // news.url1=this.url+`&page=${pagen}`
-          // this.setState({
-          //     loading:true
-          // })
-          // let data = await fetch(news.url1)
-          // let parsedData = await data.json()
-          // this.setState({
-          //     page :this.state.page +1, 
-          //     articles:parsedData.articles,
-          //     loading:false
-        //})}
-
     }
-
     prevpage = async()=>{
         this.setState({
             page:this.state.page-1
         })
-        console.log(this.state.page)
+      
         this.updatepage(this.state.page-1);
-
-        //let pagep = this.state.page -1;
-        //news.url2=this.url+`&page=${pagep}`
-        //this.setState({
-        //    loading:true
-        //})
-        //let data = await fetch(news.url2)
-        //let parsedData = await data.json()
-        //this.setState({
-        //    articles:parsedData.articles,
-        //    page: this.state.page -1,
-        //    loading:false
-        //})
     }
     render() {
         return (
 
             <div className="container my-3 ">
-                <h1 className='text-center'>Ebar Khobor -Top Headlines from India</h1>
+                <h1 className={`text-center fw-bold text-${this.props.mode === 'light' ? ' ' : 'white'}`}>Ebar Khobor - Top {this.capitalizeFirstLetter(this.props.category)} Headlines from India</h1>
                 {this.state.loading && <Spinner/>}
                 <div className="row" >
                     {!this.state.loading && this.state.articles.map((element)=>{
