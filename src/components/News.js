@@ -18,7 +18,8 @@ export class news extends Component{
     }
     constructor(props){  
         super(props);
-        this.url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=4b48ce8e951843c68510b78cd29716d9&pagesize=${this.props.pageSize}`
+        const proxyUrl = "https://cors-anywhere.herokuapp.com/"
+        this.url=`${proxyUrl}https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=4b48ce8e951843c68510b78cd29716d9&pagesize=${this.props.pageSize}`
         this.state={
            articles:[],
            loading:false,
