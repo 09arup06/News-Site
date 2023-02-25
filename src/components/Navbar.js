@@ -1,20 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 
-export class navbar extends Component {
-  static defaultProps={
-    mode:'light',
-   
-}
-static propTypes={
-    mode:PropTypes.string,
- 
-}
-  render() {
+const Navbar=(props)=>{
     return (
-      <nav className={`navbar navbar-expand-lg navbar-${this.props.mode} bg-${this.props.mode}`}>
+      <nav className={`navbar sticky-top navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
         <a className="navbar-brand" href="/home">Ebar Khobor</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -46,14 +37,18 @@ static propTypes={
               <Link className="nav-link" to="/technology">Technology</Link>
             </li>
           </ul>
-          <div className={`form-check form-switch text-${this.props.mode === 'light' ? 'dark' : 'light'} mx-2`}>
-            <input className="form-check-input" type="checkbox" onClick={this.props.toggle} role="switch" id="flexSwitchCheckDefault"></input>
-            <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable {`${this.props.mode === 'light' ? 'dark' : 'light'}`} mode</label>
+          <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'} mx-2`}>
+            <input className="form-check-input" type="checkbox" onClick={props.toggle} role="switch" id="flexSwitchCheckDefault"></input>
+            <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable {`${props.mode === 'light' ? 'dark' : 'light'}`} mode</label>
           </div>
         </div>
       </nav>
     )
   }
+  Navbar.defaultProps={
+    mode:'light',
 }
-
-export default navbar
+Navbar.propTypes={
+    mode:PropTypes.string,
+}
+export default Navbar

@@ -1,3 +1,98 @@
+/*_type: "news", didUMean: "", totalCount: 925, relatedSearch: [],…
+didUMean
+: 
+""
+relatedSearch
+: 
+[]
+totalCount
+: 
+925
+value
+: 
+[{id: "6973662096728390789",…}, {id: "4649327175817660897",…}, {id: "7686661217024459639",…},…]
+0
+: 
+{id: "6973662096728390789",…}
+body
+: 
+"This material may not be published, broadcast, rewritten,      or redistributed. 2023 FOX News Network, LLC. All rights reserved.      Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset Powered and implemented by FactSet Digital Solutions Legal Statement Mutual Fund and ETF data provided by Refinitiv Lipper"
+datePublished
+: 
+"2023-02-25T11:30:34"
+description
+: 
+"Missouri Republican Attorney General Andrew Bailey offered 'Hannity' an update in his legal proceedings seeking to oust St. Louis prosecutor Kimberly Gardner."
+id
+: 
+"6973662096728390789"
+image
+: 
+{url: "https://static.foxnews.com/foxnews.com/content/uploads/2023/01/AG-Bailey.jpg", height: 0,…}
+isSafe
+: 
+true
+keywords
+: 
+""
+language
+: 
+"en"
+provider
+: 
+{name: "foxnews", favIcon: "", favIconBase64Encoding: ""}
+favIcon
+: 
+""
+favIconBase64Encoding
+: 
+""
+name
+: 
+"foxnews"
+snippet
+: 
+"Missouri Republican Attorney <b>General</b> Andrew Bailey offered 'Hannity' an update in his legal proceedings seeking to oust St. Louis prosecutor Kimberly ..."
+title
+: 
+"Missouri AG claims liberal St. Louis prosecutor ignoring 'rule of law' as he seeks to oust her"
+url
+: 
+"https://www.foxnews.com/media/missouri-ag-claims-liberal-st-louis-prosecutor-ignoring-rule-of-law-as-he-seeks-to-oust-her"
+1
+: 
+{id: "4649327175817660897",…}
+2
+: 
+{id: "7686661217024459639",…}
+3
+: 
+{id: "5472624718547982160", title: "ESCC Phi Theta Kappa Honor Society visits General Assembly",…}
+4
+: 
+{id: "3173751522937668392", title: "REQUEST FOR PROPOSAL NOTICE",…}
+5
+: 
+{id: "7784445580130795973", title: "LEGAL NOTICE OF PUBLIC HEARING",…}
+6
+: 
+{id: "2810908783738852350", title: "Museum of Old Newbury presents life of Civil War general",…}
+7
+: 
+{id: "6071678234651576835", title: "How to easily defeat Zhang Liang, General of Man",…}}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
     "status": "ok",
     "totalResults": 33,

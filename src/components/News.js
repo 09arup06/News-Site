@@ -1,91 +1,93 @@
-import React, { Component } from 'react'
+import React, { useEffect, useState } from 'react'
 import NewsItem from './NewsItem'
 import Spinner from './Spinner';
 import PropTypes from 'prop-types'
+import InfiniteScroll from "react-infinite-scroll-component";
 
-export class news extends Component{ 
-    static defaultProps={
-        pageSize: 10,
-        country: "in",
-        category: "general",
-        mode:"light"
-    }
-    static propTypes={
-        country: PropTypes.string,
-        category: PropTypes.string,
-        pageSize:PropTypes.number,
-        mode: PropTypes.string
-       
-    }
-    capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
+const News = (props) => {
+    const [value, setvalue] = useState([])
+    const [loading, setloading] = useState(true)
+    const [page, setpage] = useState(1)
+    const [totalCount, settotalCount] = useState(0)
+    const options = {
+        method: 'GET',
+        headers: {
+            'X-RapidAPI-Key': 'ae0b537fa3mshe90ea356de9586ap1f4059jsn04782c916ba9',
+            'X-RapidAPI-Host': 'contextualwebsearch-websearch-v1.p.rapidapi.com'
         }
-    constructor(props){  
-        super(props);
-        
-        this.url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=4b48ce8e951843c68510b78cd29716d9&pagesize=${this.props.pageSize}`
-        this.state={
-           articles:[],
-           loading:false,
-           page:1,           
-        }
-        document.title=`Ebar Khobor- ${this.capitalizeFirstLetter(this.props.category)}`
+    };
+    const capitalizeFirstLetter = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
     }
     
-    async componentDidMount(){     
-        this.updatepage()
-    }
-        
-    async updatepage(pgn){
-        news.url1=this.url+`&page=${pgn}`
-        this.setState({
-            loading:true
-        })
-        let data = await fetch(news.url1)
+    useEffect(() => {
+        document.title = `Ebar Khobor- ${capitalizeFirstLetter(props.category)}`
+        updatepage(page);
+        // eslint-disable-next-line
+    },[])
+    
+    const fetchMoreData = async () => {
+        setpage(page+1)
+        let pgn = page+1;
+        const url = `https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI?q=${props.category}&pageNumber=${pgn}&pageSize=${props.pageSize}&autoCorrect=true&safeSearch=false&fromPublishedDate=null&toPublishedDate=null`
+        setloading(true)
+        let data = await fetch(url, options)
         let parsedData = await data.json()
-        this.setState({
-            articles:parsedData.articles,
-            totalResults:parsedData.totalResults,
-            loading:false,         
-        })
-        
+        setvalue(value.concat(parsedData.value))
+        settotalCount(parsedData.totalCount)
+        setloading(false)
     }
-    nextpage= async ()=>{
-        this.setState({
-            page :this.state.page+1
-        })
-        this.updatepage(this.state.page+1);
+    const updatepage = async (pgn) => {
+        props.setProgress(10);
+        setloading(true)
+        let data = await fetch(`https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI?q=${props.category}&pageNumber=${pgn}&pageSize=${props.pageSize}&autoCorrect=true&safeSearch=false&fromPublishedDate=null&toPublishedDate=null`,options)
+        let parsedData = await data.json()
+        props.setProgress(60)
+        setvalue(parsedData.value)
+        settotalCount(parsedData.totalCount)
+        setloading(false)
+        props.setProgress(100)
     }
-    prevpage = async()=>{
-        this.setState({
-            page:this.state.page-1
-        })
-      
-        this.updatepage(this.state.page-1);
-    }
-    render() {
-        return (
+     return (
+            <>
+                <h1 className={`text-center fw-bold text-${props.mode === 'light' ? ' ' : 'white'}`}>Ebar Khobor - Top {capitalizeFirstLetter(props.category)} Headlines from World</h1>
+                {loading && <Spinner/>}
+                <InfiniteScroll
+                    dataLength={value.length}
+                    next={fetchMoreData}
+                    hasMore={value.length !== totalCount}
+                    loader={<Spinner />}>
+                    <div className="container">
 
-            <div className="container my-3 ">
-                <h1 className={`text-center fw-bold text-${this.props.mode === 'light' ? ' ' : 'white'}`}>Ebar Khobor - Top {this.capitalizeFirstLetter(this.props.category)} Headlines from India</h1>
-                {this.state.loading && <Spinner/>}
-                <div className="row" >
-                    {!this.state.loading && this.state.articles.map((element)=>{
-                        return <div className="col-md-4" key={element.url}>
-                        <NewsItem  title={element.title?element.title.slice(0,45):"Click on Read More to see"} description={element.description?element.description.slice(0,90):" "}imgurl={element.urlToImage?element.urlToImage:"https://c8.alamy.com/comp/CTG496/breaking-news-daily-newspaper-headline-CTG496.jpg"} newsurl={element.url} author={element.author?element.author:element.source.name} date={element.publishedAt} source={element.source.name}/>
+                        <div className="row">
+                            {value.map((element) => {
+                                return <div className="col-md-4" key={element.url}>
+                                    <NewsItem title={element.title ? element.title.slice(0, 45) : "Click on Read More to see"} description={element.description ? element.description.slice(0, 90) : " "} imgurl={element.image.url ? element.image.url : "https://c8.alamy.com/comp/CTG496/breaking-news-daily-newspaper-headline-CTG496.jpg"} newsurl={element.url} author={element.author ? element.author : element.provider.name} date={element.datePublished} source={element.provider.name} />
+                                </div>
+                            })}
+                        </div>
                     </div>
-                    })}
-                </div>
-                <div className='container d-flex justify-content-around'>
-                <button type="button" className="btn btn-dark btn-sm " disabled={this.state.page -1 <= 1} onClick={this.prevpage}>&larr; Previous Page</button>
-                <button type="button" className="btn btn-dark btn-sm " disabled={this.state.page +1> Math.ceil(this.state.totalResults/this.props.pageSize)} onClick={this.nextpage}>Next Page &rarr;</button>
-                <div style={{color:"red"}}>Page Number: {this.state.page}</div></div>
-            </div>
+                </InfiniteScroll>
+            </>
 
         )
     }
+
+News.defaultProps = {
+    pageSize: 10,
+    country: "in",
+    category: "general",
+    mode: "light",
+    progress:0
+}
+News.propTypes = {
+    country: PropTypes.string,
+    category: PropTypes.string,
+    pageSize: PropTypes.number,
+    mode: PropTypes.string,
+    progress:PropTypes.number
 }
 
 
 
-export default news
+export default News
