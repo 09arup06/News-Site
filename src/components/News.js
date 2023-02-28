@@ -12,10 +12,11 @@ const News = (props) => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'ae0b537fa3mshe90ea356de9586ap1f4059jsn04782c916ba9',
-            'X-RapidAPI-Host': 'contextualwebsearch-websearch-v1.p.rapidapi.com'
+           'X-RapidAPI-Key': `${props.apikey}`,
+            'X-RapidAPI-Host': `${props.apihost}`
         }
     };
+  
     const capitalizeFirstLetter = (string) => {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
@@ -47,6 +48,7 @@ const News = (props) => {
         settotalCount(parsedData.totalCount)
         setloading(false)
         props.setProgress(100)
+        console.log(`${props.apikey}`)
     }
      return (
             <>
